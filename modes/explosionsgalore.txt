@@ -1,0 +1,27 @@
+"explosionsgalore"
+{
+	"base"			"coop"
+	
+	"maxplayers"	"4"
+	"hasdifficulty" "1"
+	
+	"DisplayTitle"	"Explosions Galore"
+	"Description"	"Nothing says fun like grabbin' a grenade launcher and poppin' one into a zombie. But why limit yourself? Fight tanks with just grenade launchers and send them soarin' to next Tuesday"
+	"Image"			"maps/any"
+	"Author"		"Epic_Acrylic"
+	"ShortDescription" "Grenades and tanks!"
+	
+	convar
+	{
+		sv_infinite_primary_ammo 1
+		director_special_battlefield_respawn_interval 1
+		director_special_initial_spawn_delay_max 1
+		director_special_initial_spawn_delay_max_extra 1
+		director_special_initial_spawn_delay_min 1
+		director_special_respawn_interval 1
+		z_director_special_spawn_delay 1
+		z_special_spawn_interval 1
+		z_ghost_delay_min 1
+		z_ghost_delay_max 1
+	}
+}
